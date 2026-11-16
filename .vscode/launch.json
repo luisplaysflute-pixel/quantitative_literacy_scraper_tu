@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "CourseScraper",
+      "request": "launch",
+      "mainClass": "scraper.CourseScraper",
+      "args": "https://catalog.wellesley.edu/ quantitative reasoning",
+      "envFile": "${workspaceFolder}/.env"
+    }
+  ]
+}
